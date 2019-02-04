@@ -31,6 +31,12 @@
   }
 }
 
+/* ---Footer--- */
+.Footer {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 60px 0;
+}
 
 .Avatar {
   width: 20%;

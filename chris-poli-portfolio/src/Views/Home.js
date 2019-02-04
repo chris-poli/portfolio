@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {aboutMe, photoUrl} from "../Constants/Information";
-import SideNavbar from "../Components/Navbars/SideNavbar";
+import SideNavbar, {NavIcon} from "../Components/Navbars/SideNavbar";
+import Footer from "../Components/Common/Footer";
+
 
 class Home extends Component {
     render() {
@@ -8,11 +10,12 @@ class Home extends Component {
             <div>
                 <SideNavbar/>
                 <div className='Center'>
-                    <h1>Chris Luke Poli</h1>
+                    <h1>Christopher Luke Poli</h1>
                     <img src={photoUrl}
                          className='Avatar'/>
                     <div className="panel-body">{aboutMe}</div>
                 </div>
+                <Footer/>
             </div>
 
         )

@@ -3,7 +3,10 @@ import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import './App.css';
 import Home from "./Views/Home.js";
 import Projects from "./Views/Projects.js";
-import Dashboard from './Layouts/Dashboard.js'
+import Skills from "./Views/Skills";
+import Contact from "./Views/Contact";
+import Error from "./Views/Error"
+import 'font-awesome/css/font-awesome.css'
 
 class App extends Component {
   render() {
@@ -13,6 +16,8 @@ class App extends Component {
             <Switch>
                <Route path="/" component={Home} exact/>
                <Route path="/projects" component={Projects}/>
+                <Route path='/skills' component={Skills}/>
+                <Route path='/contact' component={Contact}/>
                 <Route path='/error' component={Error}/>
                 <Redirect to='/error'/>
             </Switch>

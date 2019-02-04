@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import {routes} from '../../Constants/routes'
-import {NavLink} from "react-router-dom";
+import {NavLink, withRouter} from "react-router-dom";
+
 
 class SideNavbar extends Component {
 
@@ -10,12 +11,19 @@ class SideNavbar extends Component {
         console.log("clicked");
         if (route.type === 'download') {
 
+            var win = window.open(route.resource,'_blank');
+            win.focus();
+
+
+
         } else if (route.type === 'route') {
             //redirect user here.
+            this.props.history.push(`/${route.route}`);
         }
     }
     render() {
         return (
+
             <SideNav
                 onSelect={(selected) => { }}>
                 <SideNav.Toggle />
@@ -23,7 +31,7 @@ class SideNavbar extends Component {
                     {routes.map(route=>(
                         <NavItem id={route.label} eventKey={route.label}>
                             <NavIcon>
-                                <i className="fa-heart" style={{ fontSize: '1.75em' }} />
+                                <i className={route.icon} style={{ fontSize: '1.75em' }} />
                             </NavIcon>
                             <NavText onClick={() => this.downloadFile(route)}>
                                 {route.label}
@@ -44,4 +52,4 @@ class SideNavbar extends Component {
     }
 }
 
-export default SideNavbar;
+export default withRouter(SideNavbar);
