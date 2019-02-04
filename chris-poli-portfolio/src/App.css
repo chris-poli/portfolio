@@ -30,3 +30,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Avatar {
+  width: 20%;
+  height: 20%;
+}
+
+.AboutMe {
+  width: 50%;
+  height: 50%;
+}
+
+.Center {
+  width: 50%;
+  margin: 0 auto;
+}
