@@ -7,22 +7,30 @@ import Skills from "./Views/Skills";
 import Contact from "./Views/Contact";
 import Error from "./Views/Error"
 import 'font-awesome/css/font-awesome.css'
+import SideNavbar from "./Components/Navbars/SideNavbar";
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import ProjectSummary from "./Components/Common/ProjectSummary";
 
 class App extends Component {
   render() {
     return (
-        <div>
-          <BrowserRouter>
-            <Switch>
-               <Route path="/" component={Home} exact/>
-               <Route path="/projects" component={Projects}/>
-                <Route path='/skills' component={Skills}/>
-                <Route path='/contact' component={Contact}/>
-                <Route path='/error' component={Error}/>
-                <Redirect to='/error'/>
-            </Switch>
-          </BrowserRouter>
-        </div>
+
+        <BrowserRouter>
+            <div>
+                <SideNavbar/>
+                <Switch>
+                    <Route path="/" component={Home} exact/>
+                    <Route path="/projects" component={Projects} exact/>
+                    <Route path="/projects/:id" component={ProjectSummary}/>
+                    <Route path='/skills' component={Skills}/>
+                    <Route path='/contact' component={Contact}/>
+                    <Route path='/error' component={Error}/>
+                    <Redirect to='/error'/>
+                </Switch>
+            </div>
+        </BrowserRouter>
+
     );
   }
 }

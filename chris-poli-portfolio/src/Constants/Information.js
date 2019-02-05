@@ -15,3 +15,7 @@ export const aboutMe = "I am a highly motivated and technologically proficient C
 
 export const photoUrl = 'https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/photo.jpg';
 export const resumeUrl = 'https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/resume.pdf';
+
+export const projects = [
+    {name: 'LootClicker',uri:'lootclicker',description: '', photos: []}
+];

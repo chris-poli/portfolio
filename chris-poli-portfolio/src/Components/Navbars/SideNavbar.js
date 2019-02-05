@@ -29,18 +29,15 @@ class SideNavbar extends Component {
                 <SideNav.Toggle />
                 <SideNav.Nav defaultSelected="home">
                     {routes.map(route=>(
-                        <NavItem id={route.label} eventKey={route.label}>
+                        <NavItem onClick={() => this.downloadFile(route)} oid={route.label} eventKey={route.label}>
                             <NavIcon>
+                                {console.log(route.icon)}
                                 <i className={route.icon} style={{ fontSize: '1.75em' }} />
                             </NavIcon>
-                            <NavText onClick={() => this.downloadFile(route)}>
-                                {route.label}
-                            </NavText>
+                            <NavText>{route.label}</NavText>
                             {route.extras && route.extras.map(extra => (
                                 <NavItem>
-                                    <NavText>
-                                        {extra.label}
-                                    </NavText>
+                                    <NavText>{extra.label}</NavText>
                                 </NavItem>
                             )) }
 

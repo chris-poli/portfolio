@@ -8,7 +8,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <SideNavbar/>
                 <div className='Center'>
                     <h1>Christopher Luke Poli</h1>
                     <img src={photoUrl}

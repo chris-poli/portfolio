@@ -3,8 +3,7 @@ import SideNavbar from "./Home";
 
 const Skills = () => {
     return (
-        <div>
-            <SideNavbar/>
+        <div className='Center'>
             Skills
         </div>
     );
