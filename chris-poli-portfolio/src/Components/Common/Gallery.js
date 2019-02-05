@@ -5,7 +5,7 @@ const Gallery = ({images,padding=10}) => {
 
     const imageNodes = images.map((arr,index) => {
         return (
-            <GalleryPhoto key={index} url={arr.url} columns={[1,2,3]} padding={padding} uri={arr.uri}/>
+            <GalleryPhoto key={index} url={arr.thumbnail} columns={[1,2,3]} padding={padding} uri={arr.uri}/>
         )
     });
 

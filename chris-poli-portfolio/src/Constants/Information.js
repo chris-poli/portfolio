@@ -24,28 +24,59 @@ export function getProjectByUri(uri) {
 export const projects = [
     {
         title:'LootClicker',
-        url: urls.BucketUrl.url('lc1.jpg'),
-        uri: "lootclicker"
+        thumbnail: urls.BucketUrl.url('lc2.png'),
+        uri: "lootclicker",
+        photos: [
+            urls.BucketUrl.url('lc1.jpg'),
+            urls.BucketUrl.url('lc3.jpg')
+        ],
+        description: 'LootClicker is a f2p MMO casual clicker game.\n' +
+            'It was built from the ground up specifically for the NEO blockchain and as a game to play casually or on the side\n' +
+            'while trading cryptocurrencies.\n' +
+            'The centralized aspect of game logic itself is managed by an authoritative server, every action which may effect\n' +
+            'the in game economy and value of assets is verified and accepted by the server, this will attempt to remove all\n' +
+            'cheating from the game to properly simulate an in game economy.\n' +
+            'Players can earn items from crates, or in decentralized game modes.\n' +
+            'The in game equippable assets are all integrated into the framework and therefore registered on the NEO blockchain.'
     },
     {
         title:'Loot Framework',
-        url: urls.BucketUrl.url('lf1.jpg'),
+        thumbnail: urls.BucketUrl.url('lf1.jpg'),
         uri: "loot-framework"
     },
     {
         title: 'Loot Wallet',
-        url: urls.BucketUrl.url('lw1.png'),
+        thumbnail: urls.BucketUrl.url('lw1.png'),
         uri: "loot-wallet"
     },
     {
         title: 'AskEth',
-        url: urls.BucketUrl.url('ae1.jpg'),
+        thumbnail: urls.BucketUrl.url('ae1.jpg'),
         uri: "ask-eth"
 
     },
     {
         title: 'Rexnado Game',
-        url: "https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/rn1.jpg",
+        thumbnail: "https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/rn1.jpg",
         uri: "rexnado"
     },
+];
+
+
+
+export const books = [
+    {
+        title:'Effective Java 2nd Edition - Joshua Bloch',
+        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51LypSJEqQL._AC_UL320_SR248,320_.jpg',
+    },
+    {
+        title:'Code: The Hidden Language of Computer Hardware and Software - Charles Petzold',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/7/7f/Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg',
+    },
+    {
+        title:'Head First Java 2nd Edition - Kathy Sierra & Bert Bates',
+        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51Gsycdh-TL._SX430_BO1,204,203,200_.jpg',
+
+    }
+
 ];

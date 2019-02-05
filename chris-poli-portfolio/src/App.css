@@ -43,6 +43,19 @@
   height: 20%;
 }
 
+.Container-Flex {
+  height:100%;
+  width: 100%;
+  display: flex;
+
+}
+
+.Container-Flex-Element {
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+}
+
 .AboutMe {
   width: 50%;
   height: 50%;
