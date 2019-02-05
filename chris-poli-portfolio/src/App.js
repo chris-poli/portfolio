@@ -11,6 +11,7 @@ import SideNavbar from "./Components/Navbars/SideNavbar";
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import "../node_modules/video-react/dist/video-react.css"; // import css
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import ProjectSummary from "./Components/Common/ProjectSummary";
 import Awards from "./Views/Awards";
 
@@ -27,7 +28,6 @@ class App extends Component {
                     <Route path="/projects/:id" component={ProjectSummary}/>
                     <Route path='/knowledge' component={Knowledge}/>
                     <Route path='/awards' component={Awards}/>
-                    <Route path='/contact' component={Contact}/>
                     <Route path='/error' component={Error}/>
                     <Redirect to='/error'/>
                 </Switch>

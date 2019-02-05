@@ -76,7 +76,138 @@ export const books = [
     {
         title:'Head First Java 2nd Edition - Kathy Sierra & Bert Bates',
         thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51Gsycdh-TL._SX430_BO1,204,203,200_.jpg',
-
+    },
+    {
+        title:'Clean Code',
+        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/515iEcDr1GL._SX385_BO1,204,203,200_.jpg',
+    },
+    {
+        title:'Automate This - Christopher Steiner',
+        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51Folik-4IL.jpg',
+    },
+    {
+        title:'Mastering Ethereum',
+        thumbnail: 'https://github.com/ethereumbook/ethereumbook/raw/develop/images/cover_thumb.png',
     }
+];
+export const languages = [
+    {
+        title:'Javascript',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+    },
+    {
+        title:'Java',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png'
+    },
+    {
+        title:'scala',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png'
+    },
+    {
+        title:'c#',
+        thumbnail: 'https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg'
+    },
+    {
+        title:'solidity',
+        thumbnail: 'https://everipedia-storage.s3-accelerate.amazonaws.com/ProfilePics/4857965__39455.svg'
+    },
+    {
+        title:'python',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png'
+    },
+    {
+        title:'c',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/140px-The_C_Programming_Language_logo.svg.png'
+    },
+    {
+        title:'c',
+        thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*s6QGl0s9_ZgmotvHVtUVoQ.png'
+    },
 
 ];
+
+export const technologies = [
+    {
+        title:'Dotnet',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png'
+    },
+    {
+        title:'Unity',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2000px-Unity_Technologies_logo.svg.png'
+    },
+    {
+        title:'react',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png'
+    },
+    {
+        title:'redux',
+        thumbnail:'https://avatars0.githubusercontent.com/u/13142323?s=400&v=4'
+    },
+    {
+        title:'nodejs',
+        thumbnail:'https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png'
+    },
+    {
+        title:'photon',
+        thumbnail:'https://s3-eu-west-1.amazonaws.com/img3.n-ix.com/wp-content/uploads/2016/07/12192159/big__photon-server-logo.png'
+    },
+    {
+        title:'pyqt',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Python_and_Qt.svg/1200px-Python_and_Qt.svg.png'
+    },
+    {
+        title:'mongo',
+        thumbnail:'https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg'
+    },
+    {
+        title:'cass',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/2000px-Cassandra_logo.svg.png'
+    },
+    {
+        title:'mysql',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png'
+    },
+    {
+        title:'Unix',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/c/c2/Unix_Logo.gif'
+    },
+    {
+        title:'aws',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2000px-Amazon_Web_Services_Logo.svg.png'
+    },
+    {
+        title:'docker',
+        thumbnail:'https://www.docker.com/sites/default/files/social/docker_facebook_share.png'
+    },
+    {
+        title:'hadoop',
+        thumbnail:'https://sdtimes.com/wp-content/uploads/2017/12/elephant_rgb_sq_400x400.png'
+    },
+    {
+        title:'eth',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/2000px-Ethereum_logo_2014.svg.png'
+    },
+    {
+        title:'neo',
+        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/0/07/NEO_%28cryptocurrency%29_logo.svg'
+    },
+];
+
+export const courses = [
+    {
+        title:'Javascript',
+        thumbnail: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAolBMV' +
+            'EXw208yMzDw2kvz5ITx3Vnz4nr34VDy3U8vMTAaIC7UwkpCQTL24FAqLC8nKi/65FEVHC55cDkSGi0dIi4hJS4o' +
+            'Ky8gJC4uLzDl0U3hzkw/PjLOvUleWTZoYjfAsEarnUI5OTG5qkWekkBIRjNwaTiCeTtXUzWOhD1UUDSmmUGYjD9NS' +
+            'jOfk0DYxkuyo0N/dju+' +
+            '/+rncS2q9UMCVHbh+nD799a5BUYmAuwv364/mX/+eH6L/vhsoT0ZQnpyxLSlyWkL0tIX5aQviwhfVlC+rKE9GUJ6c' +
+            'sS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+LCF9WUL6soT0ZQnpyxLSlyWkL0tIX5aQviwhfVl' +
+            'C+rKE9GUJ6csS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+' +
+            'QeC6QRB07sPFJJOXXXE9tpe/LJ5Hg+Stwag/GD0vJrnUvIj4FfnD4wvqgmX5Ps8z0foR9Wp7cGzkrUHWssWvy5DCq27eYNsWSbyrf5UsIX1ZQvqyhPRlCenLEtKXJaQvS0hfBeHfP1x//R/nw6Yll7nq2gAAAABJRU5ErkJggg==',
+    }
+]
+
+
+export const awards = [
+    {}
+]
