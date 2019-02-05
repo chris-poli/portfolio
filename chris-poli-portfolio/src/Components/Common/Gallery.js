@@ -5,7 +5,7 @@ const Gallery = ({images,padding=10}) => {
 
     const imageNodes = images.map((arr,index) => {
         return (
-            <GalleryPhoto key={index} url={arr.url} columns={[1,2,3]} padding={padding} clickHandler={arr.clickHandler}/>
+            <GalleryPhoto key={index} url={arr.url} columns={[1,2,3]} padding={padding} uri={arr.uri}/>
         )
     });
 
@@ -17,8 +17,7 @@ const Gallery = ({images,padding=10}) => {
     }
     @media only screen and (min-width : 992px) {
       .imageGridItem { width: ${Math.floor(100 / 3)}%; }
-    }
-  `;
+    }`;
 
     return (
         <div className="imageGrid">

@@ -10,17 +10,14 @@ class SideNavbar extends Component {
     downloadFile(route) {
         console.log("clicked");
         if (route.type === 'download') {
-
             var win = window.open(route.resource,'_blank');
             win.focus();
-
-
-
         } else if (route.type === 'route') {
             //redirect user here.
             this.props.history.push(`/${route.route}`);
         }
     }
+
     render() {
         return (
 
@@ -29,7 +26,7 @@ class SideNavbar extends Component {
                 <SideNav.Toggle />
                 <SideNav.Nav defaultSelected="home">
                     {routes.map(route=>(
-                        <NavItem onClick={() => this.downloadFile(route)} oid={route.label} eventKey={route.label}>
+                        <NavItem key={route.label} onClick={() => this.downloadFile(route)} oid={route.label} eventKey={route.label}>
                             <NavIcon>
                                 {console.log(route.icon)}
                                 <i className={route.icon} style={{ fontSize: '1.75em' }} />
