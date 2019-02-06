@@ -209,5 +209,7 @@ export const courses = [
 
 
 export const awards = [
-    {}
+    {
+
+    }
 ]

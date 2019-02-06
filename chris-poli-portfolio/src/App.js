@@ -14,6 +14,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import ProjectSummary from "./Components/Common/ProjectSummary";
 import Awards from "./Views/Awards";
+import Experience from "./Views/Experience";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
                     <Route path="/projects" component={Projects} exact/>
                     <Route path="/projects/:id" component={ProjectSummary}/>
                     <Route path='/knowledge' component={Knowledge}/>
+                    <Route path='/experience' component={Experience}/>
                     <Route path='/awards' component={Awards}/>
                     <Route path='/error' component={Error}/>
                     <Redirect to='/error'/>

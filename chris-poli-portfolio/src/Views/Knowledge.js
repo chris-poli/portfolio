@@ -14,12 +14,14 @@ const Knowledge = () => {
                 <ImageList images={languages}/>
             </div>
             <div className='knowledge-div'>
-                <h2>Technologies</h2>
-                <h4>I have adequate experience in these technologies.</h4>
+                <h2>Technologies</h2>/
+                <h5>I have experience in these technologies:</h5>
                 <ImageList images={technologies}/>
             </div>
             <div className='knowledge-div'>
-                <h2>Books Read</h2>
+                <h2>Books</h2>/
+                <h5>I have read these books:</h5>
+
                 <ImageList images={books}/>
             </div>
         </div>

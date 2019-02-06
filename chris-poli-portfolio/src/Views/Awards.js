@@ -5,6 +5,7 @@ class Awards extends Component {
         return (
             <div className='container'>
                 <h1>Awards</h1>
+
             </div>
         );
     }
