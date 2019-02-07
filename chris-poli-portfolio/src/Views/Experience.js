@@ -4,7 +4,10 @@ class Experience extends Component {
     render() {
         return (
             <div className='Center'>
-                Experience
+                <h1>Experience</h1>
+                <ul className="list-group">
+                    <li className="list-group-item">Cras justo odio</li>
+                </ul>
             </div>
         );
     }

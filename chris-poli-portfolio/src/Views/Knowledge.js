@@ -10,7 +10,7 @@ const Knowledge = () => {
             <h1>Knowledge</h1>
 
             <div className='knowledge-div'>
-                <h2>Programming Languages</h2>
+                <h2>Languages</h2>
                 <ImageList images={languages}/>
             </div>
             <div className='knowledge-div'>

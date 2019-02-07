@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <div className='Center'>
-                    <h1 className='logo'>Christopher Luke Poli</h1>
+                    <h1>Christopher Luke Poli</h1>
                     <h3>Email: chris.luke.poli@gmail.com</h3>
                     <h3><a href='https://www.facebook.com/98poli'>Facebook</a></h3>
                     <img src={photoUrl}

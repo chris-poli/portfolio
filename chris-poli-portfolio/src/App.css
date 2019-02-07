@@ -7,6 +7,21 @@
   height: 40vmin;
 }
 
+@font-face {
+  font-family: sansation;
+  src: local('MyFont'), url(./Assets/Fonts/sansation_light.woff) format('woff');
+}
+
+
+div.panel-body {
+  background: darkred;
+  padding: 20px;
+  border-top-left-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  color: white;
+  text-overflow: ellipsis;
+  font-family: sansation;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -70,7 +85,6 @@
   margin: 0 auto;
 }
 
-
 body {
   background: #282828;/* match border color */
   text-align: center;
@@ -83,6 +97,8 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  text-shadow: 2px 2px 5px red,0px 0px 10px grey;
+
 }
 
 .img {

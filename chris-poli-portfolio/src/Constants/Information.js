@@ -96,6 +96,14 @@ export const languages = [
         thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
     },
     {
+        title:'html',
+        thumbnail: 'https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png',
+    },
+    {
+        title:'css',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png',
+    },
+    {
         title:'Java',
         thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png'
     },
@@ -120,7 +128,7 @@ export const languages = [
         thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/140px-The_C_Programming_Language_logo.svg.png'
     },
     {
-        title:'c',
+        title:'php',
         thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*s6QGl0s9_ZgmotvHVtUVoQ.png'
     },
 
