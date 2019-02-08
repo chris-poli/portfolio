@@ -8,20 +8,16 @@ const Knowledge = () => {
     return (
         <div className='Center'>
             <h1>Knowledge</h1>
-
-            <div className='knowledge-div'>
-                <h2>Languages</h2>
+            <div id='left-knowledge' >
+                <h2><code>Languages</code></h2>
                 <ImageList images={languages}/>
             </div>
-            <div className='knowledge-div'>
-                <h2>Technologies</h2>/
-                <h5>I have experience in these technologies:</h5>
+            <div id='center-knowledge'>
+                <h2><code>Technologies</code></h2>
                 <ImageList images={technologies}/>
             </div>
-            <div className='knowledge-div'>
-                <h2>Books</h2>/
-                <h5>I have read these books:</h5>
-
+            <div id ='right-knowledge'>
+                <h2><code>Books</code></h2>
                 <ImageList images={books}/>
             </div>
         </div>

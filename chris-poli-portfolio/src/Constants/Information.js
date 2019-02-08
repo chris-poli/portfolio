@@ -1,10 +1,43 @@
 import urls from '../Constants/urls';
 
+import dotnetImg from '../Assets/Images/.net.png';
+import automateImg from '../Assets/Images/automate-this.jpg';
+import awsImg from '../Assets/Images/aws.png';
+import csharpImg from '../Assets/Images/csharp.jpg';
+import cImg from '../Assets/Images/c.png';
+import cassImg from '../Assets/Images/cass.png';
+import cleanCodeImg from '../Assets/Images/clean-code.jpg';
+import codeImg from '../Assets/Images/code.jpg';
+import cssImg from '../Assets/Images/css.png';
+import dockerImg from '../Assets/Images/docker.png';
+import effectiveJavaImg from '../Assets/Images/effective-java.jpg';
+import ethImg from '../Assets/Images/eth.png';
+import hadoopImg from '../Assets/Images/hadoop.png';
+import htmlImg from '../Assets/Images/html.png';
+import headJavaImg from '../Assets/Images/headJava.jpg';
+import javaImg from '../Assets/Images/java.png';
+import jsImg from '../Assets/Images/js.png';
+import masteringEthImg from '../Assets/Images/mastering-ethereum.png';
+import mongoImg from '../Assets/Images/mongodb.jpg';
+import mySqlImg from '../Assets/Images/mysql.png';
+import neoImg from '../Assets/Images/neo.svg';
+import nodeImg from '../Assets/Images/nodejs.png';
+import photonImg from '../Assets/Images/photon.png';
+import phpImg from '../Assets/Images/php.png';
+import pyqtImg from '../Assets/Images/pyqt.png';
+import pythonImg from '../Assets/Images/python.png';
+import reactImg from '../Assets/Images/react.png';
+import reduxImg from '../Assets/Images/redux.png';
+import scalaImg from '../Assets/Images/scala.png';
+import solidityImg from '../Assets/Images/solidity.svg';
+import unityImg from '../Assets/Images/unity.png';
+import unixImg from '../Assets/Images/unix.gif';
+
+
 export const aboutMe = "I am a highly motivated and technologically proficient Computer Science student/hobbyist" +
     " with the desire to work in a challenging position to further develop my skills and creativity in" +
     " an ambitious and expanding business environment. Experience has lead me to a deep passion and " +
-    "understanding in building web applications with a friendly UX design and manageable backend services to complement. \n" +
-    "\n" +
+    "understanding in building web applications with a friendly UX design and manageable backend services to complement." +
     "Whilst working on my side projects and placing in international competitions with a" +
     " business partner, I have consistently demonstrated a highly flexible approach, with " +
     "the ability to work on multiple tasks simultaneously and handle frequent interruptions," +
@@ -32,7 +65,7 @@ export const projects = [
         ],
         description: 'LootClicker is a f2p MMO casual clicker game.\n' +
             'It was built from the ground up specifically for the NEO blockchain and as a game to play casually or on the side\n' +
-            'while trading cryptocurrencies.\n' +
+            'while trading cryptocurrencies.\n\n' +
             'The centralized aspect of game logic itself is managed by an authoritative server, every action which may effect\n' +
             'the in game economy and value of assets is verified and accepted by the server, this will attempt to remove all\n' +
             'cheating from the game to properly simulate an in game economy.\n' +
@@ -56,7 +89,7 @@ export const projects = [
 
     },
     {
-        title: 'Rexnado Game',
+        title: 'Rexnado Arcade Game',
         thumbnail: "https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/rn1.jpg",
         uri: "rexnado"
     },
@@ -67,157 +100,146 @@ export const projects = [
 export const books = [
     {
         title:'Effective Java 2nd Edition - Joshua Bloch',
-        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51LypSJEqQL._AC_UL320_SR248,320_.jpg',
+        thumbnail: effectiveJavaImg,
     },
     {
         title:'Code: The Hidden Language of Computer Hardware and Software - Charles Petzold',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/7/7f/Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg',
+        thumbnail: codeImg
     },
     {
         title:'Head First Java 2nd Edition - Kathy Sierra & Bert Bates',
-        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51Gsycdh-TL._SX430_BO1,204,203,200_.jpg',
+        thumbnail: headJavaImg
     },
     {
         title:'Clean Code',
-        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/515iEcDr1GL._SX385_BO1,204,203,200_.jpg',
+        thumbnail: cleanCodeImg
     },
     {
         title:'Automate This - Christopher Steiner',
-        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51Folik-4IL.jpg',
+        thumbnail: automateImg
     },
     {
         title:'Mastering Ethereum',
-        thumbnail: 'https://github.com/ethereumbook/ethereumbook/raw/develop/images/cover_thumb.png',
+        thumbnail: masteringEthImg
     }
 ];
 export const languages = [
     {
         title:'Javascript',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+        thumbnail: jsImg
     },
     {
         title:'html',
-        thumbnail: 'https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png',
+        thumbnail: htmlImg
     },
     {
         title:'css',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png',
+        thumbnail: cssImg
     },
     {
         title:'Java',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png'
+        thumbnail: javaImg
     },
     {
         title:'scala',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png'
+        thumbnail: scalaImg
     },
     {
         title:'c#',
-        thumbnail: 'https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg'
+        thumbnail: csharpImg
     },
     {
         title:'solidity',
-        thumbnail: 'https://everipedia-storage.s3-accelerate.amazonaws.com/ProfilePics/4857965__39455.svg'
+        thumbnail: solidityImg
     },
     {
         title:'python',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png'
+        thumbnail: pythonImg
     },
     {
         title:'c',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/140px-The_C_Programming_Language_logo.svg.png'
+        thumbnail: cImg
     },
     {
         title:'php',
-        thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*s6QGl0s9_ZgmotvHVtUVoQ.png'
+        thumbnail: phpImg
     },
 
 ];
-
 export const technologies = [
     {
         title:'Dotnet',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png'
+        thumbnail: dotnetImg
     },
     {
         title:'Unity',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2000px-Unity_Technologies_logo.svg.png'
+        thumbnail: unityImg
     },
     {
         title:'react',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png'
+        thumbnail: reactImg
     },
     {
         title:'redux',
-        thumbnail:'https://avatars0.githubusercontent.com/u/13142323?s=400&v=4'
+        thumbnail: reduxImg
     },
     {
         title:'nodejs',
-        thumbnail:'https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png'
+        thumbnail: nodeImg
     },
     {
         title:'photon',
-        thumbnail:'https://s3-eu-west-1.amazonaws.com/img3.n-ix.com/wp-content/uploads/2016/07/12192159/big__photon-server-logo.png'
+        thumbnail:photonImg
     },
     {
         title:'pyqt',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Python_and_Qt.svg/1200px-Python_and_Qt.svg.png'
+        thumbnail:pyqtImg
     },
     {
         title:'mongo',
-        thumbnail:'https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg'
+        thumbnail:mongoImg
     },
     {
         title:'cass',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/2000px-Cassandra_logo.svg.png'
+        thumbnail:cassImg
     },
     {
         title:'mysql',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png'
+        thumbnail: mySqlImg
     },
     {
         title:'Unix',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/c/c2/Unix_Logo.gif'
+        thumbnail: unixImg
     },
     {
         title:'aws',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2000px-Amazon_Web_Services_Logo.svg.png'
+        thumbnail:awsImg
     },
     {
         title:'docker',
-        thumbnail:'https://www.docker.com/sites/default/files/social/docker_facebook_share.png'
+        thumbnail:dockerImg
     },
     {
         title:'hadoop',
-        thumbnail:'https://sdtimes.com/wp-content/uploads/2017/12/elephant_rgb_sq_400x400.png'
+        thumbnail:hadoopImg
     },
     {
         title:'eth',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/2000px-Ethereum_logo_2014.svg.png'
+        thumbnail:ethImg
     },
     {
         title:'neo',
-        thumbnail:'https://upload.wikimedia.org/wikipedia/commons/0/07/NEO_%28cryptocurrency%29_logo.svg'
+        thumbnail:neoImg
     },
 ];
 
 export const courses = [
-    {
-        title:'Javascript',
-        thumbnail: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAolBMV' +
-            'EXw208yMzDw2kvz5ITx3Vnz4nr34VDy3U8vMTAaIC7UwkpCQTL24FAqLC8nKi/65FEVHC55cDkSGi0dIi4hJS4o' +
-            'Ky8gJC4uLzDl0U3hzkw/PjLOvUleWTZoYjfAsEarnUI5OTG5qkWekkBIRjNwaTiCeTtXUzWOhD1UUDSmmUGYjD9NS' +
-            'jOfk0DYxkuyo0N/dju+' +
-            '/+rncS2q9UMCVHbh+nD799a5BUYmAuwv364/mX/+eH6L/vhsoT0ZQnpyxLSlyWkL0tIX5aQviwhfVlC+rKE9GUJ6c' +
-            'sS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+LCF9WUL6soT0ZQnpyxLSlyWkL0tIX5aQviwhfVl' +
-            'C+rKE9GUJ6csS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+' +
-            'QeC6QRB07sPFJJOXXXE9tpe/LJ5Hg+Stwag/GD0vJrnUvIj4FfnD4wvqgmX5Ps8z0foR9Wp7cGzkrUHWssWvy5DCq27eYNsWSbyrf5UsIX1ZQvqyhPRlCenLEtKXJaQvS0hfBeHfP1x//R/nw6Yll7nq2gAAAABJRU5ErkJggg==',
-    }
-]
+
+];
 
 
 export const awards = [
     {
 
     }
-]
+];

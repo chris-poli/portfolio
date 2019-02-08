@@ -14,14 +14,22 @@
 
 
 div.panel-body {
-  background: darkred;
+  background: wheat;
   padding: 20px;
-  border-top-left-radius: 25px;
+  border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
-  color: white;
+  color: black;
   text-overflow: ellipsis;
   font-family: sansation;
+  width:50%;
+  margin: auto;
 }
+
+div.flex-container {
+  display: inline-block;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -56,6 +64,8 @@ div.panel-body {
 .Avatar {
   width: 20%;
   height: 20%;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 .Container-Flex {
@@ -86,25 +96,34 @@ div.panel-body {
 }
 
 body {
-  background: #282828;/* match border color */
-  text-align: center;
+  position: relative;
+}
+body:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  width: 100%;
+  height: 100%;
+  opacity : 0.7;
+  z-index: -1;
 }
 
 h1 {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-family: "Courier New";
   font-size: 70px;
   padding: 30px 50px;
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  text-shadow: 2px 2px 5px red,0px 0px 10px grey;
-
+  text-shadow: 0px 0px 10px grey;
 }
 
 .icon-small {
   width: 10%;
   height: 10%;
-
 }
 
 .img {
@@ -120,6 +139,22 @@ h1 {
 
 .knowledge-div {
   margin-top:50px;
+  width:100%;
+  text-align: center;
+}
+
+#left-knowledge {
+  position: relative;
+}
+
+#center-knowledge {
+  margin: 0 auto;
+  position: relative;
+
+}
+
+#right-knowledge {
+  position: relative;
 }
 
 .logo {
@@ -127,4 +162,48 @@ h1 {
   color: #DB3D44;
   text-transform: uppercase;
   letter-spacing: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.thumbnails {
+  overflow: hidden;
+}
+
+.thumbnails li {
+  float: left;
+  width: 60%;
+  position: relative;
+  padding: 30px;
+  min-height: 100px;
+  background-color: #fff;
+  border: none;
+  overflow: hidden;
+}
+.thumbnails li img {
+  max-width: 50%;
+  display: inline-block;
+  position: absolute;
+  max-height: 100px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.formatted-photo {
+  max-width: 500px;
+  max-height: 300px;
+  border: none;
+  padding: 10px;
+}
+
+.grid-container {
+  display:inline-grid;
+  grid-column-gap: 50px;
+
 }

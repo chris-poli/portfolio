@@ -7,9 +7,13 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className='Center'>
+            <div className='Center' >
                 <h1> Projects </h1>
-                <Gallery images={projects}/>
+                <div >
+                    <hr/>
+                    <Gallery images={projects}/>
+                </div>
+
             </div>
         );
     }

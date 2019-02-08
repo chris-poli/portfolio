@@ -11,34 +11,13 @@ class GalleryPhoto extends React.Component {
 
     render() {
 
-        const {padding,url} = this.props;
-
-        const styles = {
-            imageGridItem: {
-                display: 'inline-block',
-                boxSizing: 'border-box',
-                float: 'left',
-                padding ,
-            },
-            imageWrapper: {
-                position: 'relative',
-                width: '100%',
-                paddingBottom: '100%',
-                backgroundImage: `url(${url})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center center',
-                backgroundRepeat: 'no-repeat',
-                cursor: 'pointer',
-            },
-        };
-
-
+        const {url,title} = this.props;
 
         return (
-            <div className="imageGridItem" style={styles.imageGridItem}>
-                <a onClick={ this.clickHandler }>
-                    <div className="imageWrapper" style={styles.imageWrapper}></div>
-                </a>
+            <div style={{display:'block',textAlign:'center'}} >
+                <code>{title}</code>
+                <br/>
+                <a onClick={ this.clickHandler }><img className='formatted-photo' src={url}/></a>
             </div>
         );
     }

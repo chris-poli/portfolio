@@ -5,11 +5,15 @@ const ImageList = ({images}) => {
     return (
         <div>
             <div className='row'>
-                {images.map(image=>(
-                    <div className='col-sm-3' >
-                        <img className='img' src={image.thumbnail}/>
-                    </div>
-                ))}
+                <ul className="thumbnails">
+                    {images.map(image=>(
+                        <li class="col-sm-2">
+                            <img
+                                src={image.thumbnail}
+                                alt="Logo"/>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     );
