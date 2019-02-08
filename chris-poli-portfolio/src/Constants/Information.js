@@ -38,8 +38,8 @@ export const aboutMe = "I am a highly motivated and technologically proficient C
     " with the desire to work in a challenging position to further develop my skills and creativity in" +
     " an ambitious and expanding business environment. Experience has lead me to a deep passion and " +
     "understanding in building web applications with a friendly UX design and manageable backend services to complement." +
-    "Whilst working on my side projects and placing in international competitions with a" +
-    " business partner, I have consistently demonstrated a highly flexible approach, with " +
+    "Whilst working on my side projects and placing in international competitions " +
+    " I have consistently demonstrated a highly flexible approach, with " +
     "the ability to work on multiple tasks simultaneously and handle frequent interruptions," +
     " together with competing deadlines and changing work priorities. I have developed a high" +
     " level of methodical organisational skills and thoroughly understand what it takes to" +
@@ -75,12 +75,22 @@ export const projects = [
     {
         title:'Loot Framework',
         thumbnail: urls.BucketUrl.url('lf1.jpg'),
-        uri: "loot-framework"
+        uri: "loot-framework",
+        photos: [
+            urls.BucketUrl.url('lc1.jpg'),
+            urls.BucketUrl.url('lc3.jpg')
+        ],
+        description: ''
     },
     {
         title: 'Loot Wallet',
         thumbnail: urls.BucketUrl.url('lw1.png'),
-        uri: "loot-wallet"
+        uri: "loot-wallet",
+        photos: [
+            urls.BucketUrl.url('lw2.png'),
+            urls.BucketUrl.url('lw3.png')
+        ],
+        description: ''
     },
     {
         title: 'AskEth',
@@ -91,10 +101,35 @@ export const projects = [
     {
         title: 'Rexnado Arcade Game',
         thumbnail: "https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/rn1.jpg",
-        uri: "rexnado"
+        uri: "rexnado",
+        photos: [
+
+        ],
+        description: 'Rexnado is a project built for DECO3801'
     },
 ];
 
+export const courses = [
+
+    'Introduction to Software Engineering',
+    'Introduction to Information Systems',
+    'Introduction to Computer Systems',
+    'Introduction to Web Design',
+    'Advanced Database Systems',
+    'Web Information Systems',
+    'Discrete Mathematics',
+    'Analysis of Scientific Data',
+    'Programming in the Large',
+    'Relational Database Systems',
+    'Service Oriented Architectures',
+    'Cloud Computing',
+    'Design Computing Studio 3',
+    'Algorithms and Data Structures',
+    'Advanced Theory and Practice in Science',
+    'Planet Earth: The Big Picture',
+    'Chemistry 1',
+    'Genes, Cells and Evolution'
+];
 
 
 export const books = [
@@ -231,10 +266,6 @@ export const technologies = [
         title:'neo',
         thumbnail:neoImg
     },
-];
-
-export const courses = [
-
 ];
 
 

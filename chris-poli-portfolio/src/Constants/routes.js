@@ -7,8 +7,6 @@ export const routes = [
     {route:'knowledge',label:'Knowledge',icon:'fa fa-book',type:'route'},
     {route:'awards',label:'Awards',icon:'fa fa-star',type:'route'},
     {route:'resume',label:'Resume',icon:'fa fa-file',type:'download',resource:resumeUrl},
-    {route:'contact',label:'Contact',icon:'fa fa-phone',type:'route'},
-
 ];
 
 

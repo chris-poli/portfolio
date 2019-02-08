@@ -4,7 +4,7 @@ import SideNavbar, {NavIcon} from "../Components/Navbars/SideNavbar";
 import Footer from "../Components/Common/Footer";
 import facebook_logo from '../Assets/Images/facebook_logo.png'
 import email_logo from '../Assets/Images/email.png'
-
+import github_logo from '../Assets/Images/github_logo.png'
 class Home extends Component {
 
     alertEmail() {
@@ -20,9 +20,11 @@ class Home extends Component {
                         <img src={photoUrl} className='Avatar'/>
                         <div className="panel-body">{aboutMe}</div>
                     </div>
-                    <div>
-                        <h3><a onClick={this.alertEmail} target='_blank'><img className='icon-small' src={email_logo}/></a></h3>
-                        <h3><a href='https://www.facebook.com/98poli' target='_blank'><img className='icon-small' src={facebook_logo}/></a></h3>
+                    <div className='row'>
+                        <a onClick={this.alertEmail} target='_blank'><img className='formatted-photo-small' src={email_logo}/></a>
+                        <a href='https://www.facebook.com/98poli' target='_blank'><img className='formatted-photo-small'  src={facebook_logo}/></a>
+                        <a href='https://github.com/chris-poli' target='_blank'><img className='formatted-photo-small' src={github_logo}/></a>
+
                     </div>
                 </div>
             </div>
