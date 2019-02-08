@@ -93,11 +93,17 @@ body {
 h1 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 70px;
-  padding: 80px 50px;
+  padding: 30px 50px;
   text-align: center;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   text-shadow: 2px 2px 5px red,0px 0px 10px grey;
+
+}
+
+.icon-small {
+  width: 10%;
+  height: 10%;
 
 }
 
