@@ -9,15 +9,15 @@ const Knowledge = () => {
         <div className='Center'>
             <h1>Knowledge</h1>
             <div className='row'>
-                <div id='left-knowledge' className='panel-body' >
+                <div className='panel-body' >
                     <h2><code>Languages</code></h2>
                     <ImageList images={languages}/>
                 </div>
-                <div id='center-knowledge' className='panel-body'>
+                <div  className='panel-body'>
                     <h2><code>Technologies</code></h2>
                     <ImageList images={technologies}/>
                 </div>
-                <div id ='right-knowledge' className='panel-body'>
+                <div  className='panel-body'>
                     <h2><code>Courses</code></h2>
                     <ul>
                         {courses.map(course=>(

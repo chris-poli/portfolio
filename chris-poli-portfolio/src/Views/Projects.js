@@ -9,7 +9,7 @@ class Projects extends Component {
         return (
             <div className='Center' >
                 <h1> Projects </h1>
-                <div  >
+                <div>
                     <hr/>
                     <Gallery images={projects}/>
                 </div>

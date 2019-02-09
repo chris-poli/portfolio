@@ -14,14 +14,15 @@
 
 
 div.panel-body {
-  background: wheat;
+  background: white;
+  width: 1000px;
   padding: 20px;
   border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
   color: black;
   text-overflow: ellipsis;
   font-family: sansation;
-  width:50%;
+
   margin: auto;
 }
 
@@ -104,7 +105,7 @@ body:after {
   top: 0;
   left: 0;
   /*background-image: url(https://images.pexels.com/photos/733031/pexels-photo-733031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
-  background-color: lightblue;
+  background-color: cornflowerblue;
   width: 100%;
   height: 100%;
   opacity : 0.3;
@@ -201,8 +202,8 @@ h1 {
 }
 
 .formatted-photo {
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 200px;
   border: none;
   padding: 10px;
 }

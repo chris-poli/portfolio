@@ -10,7 +10,7 @@ const Gallery = ({images,padding=10}) => {
     });
 
     return (
-        <div className='row'>
+        <div className='row' style={{paddingTop:'10px'}}>
             {imageNodes}
         </div>
     );

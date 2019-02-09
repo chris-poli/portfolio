@@ -47,7 +47,7 @@ export const aboutMe = "I am a highly motivated and technologically proficient C
     " for personal and professional growth and now I welcome every new experience with an open" +
     " mind and willingness to learn more.";
 
-export const photoUrl = urls.BucketUrl.url('photo.jpg');
+export const photoUrl = 'https://t3.ftcdn.net/jpg/01/83/55/76/500_F_183557656_DRcvOesmfDl5BIyhPKrcWANFKy2964i9.jpg'
 export const resumeUrl = urls.BucketUrl.url('resume.pdf');
 
 export function getProjectByUri(uri) {

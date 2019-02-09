@@ -14,7 +14,7 @@ class GalleryPhoto extends React.Component {
         const {url,title} = this.props;
 
         return (
-            <div style={{display:'block',textAlign:'center'}} >
+            <div style={{display:'block',textAlign:'center'}} className="panel-body" >
                 <code>{title}</code>
                 <br/>
                 <a onClick={ this.clickHandler }><img className='formatted-photo' src={url}/></a>
