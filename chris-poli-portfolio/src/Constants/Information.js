@@ -131,6 +131,63 @@ export const courses = [
     'Genes, Cells and Evolution'
 ];
 
+export const experience = [
+    {
+        title: 'UQ Blockchain Club',
+        subtitle: 'Secretary',
+        date: 'October 2018 - Present',
+        content: [
+            'Helped run and organise club events.'
+        ]
+    },
+    {
+        title: 'Bachelor of Science',
+        subtitle: 'Major in Computer Science',
+        date: 'July 2016 - Summer 2019/2020',
+        content: [
+            ''
+        ]
+    },
+    {
+        title: 'Warped Gaming LLC.',
+        subtitle: 'Software Engineer',
+        date: 'November 2017 - January 2019',
+        content: [
+            'Built a published game with Unity.',
+            'Built multiple RESTful APIs.',
+            'Built a desktop wallet that interacts with the NEO blockchain.',
+            'Built an authoritative server with custom logic using photon on-premises.',
+            'Built web applications with React and Redux.',
+            'Gained a deep understanding of blockchains such as Ethereum and NEO.',
+            'Managed NoSQL databases such as MongoDB and Cassandra.',
+            'Managed SQL databases such as MySQL.'
+        ]
+    },
+    {
+        title: 'Townsville Grammar School',
+        subtitle: 'Secondary Education',
+        date: 'January 2008 - November 2015',
+        content: [
+            ''
+        ]
+    },
+    {
+        title: 'The Reject Shop',
+        subtitle: 'Sales Assistant',
+        date: 'March 2015 - April 2016',
+        content: [
+            ''
+        ]
+    },
+    {
+        title: 'McDonalds',
+        subtitle: 'Cook/Cashier',
+        date: 'June 2013 - October 2015',
+        content: [
+            ''
+        ]
+    },
+];
 
 export const books = [
     {
@@ -271,6 +328,37 @@ export const technologies = [
 
 export const awards = [
     {
-
+        title: 'Dean\'s Commendation for Academic Excellence',
+        date: 'Semester 2, 2018',
+        subtitle: '',
+        imgUrl: 'https://s3-ap-southeast-2.amazonaws.com/chris-poli-files/deans-commendation-2018.jpg',
+    },
+    {
+        title: 'DECO3801 Project selected for UQ ITEE Innovation Showcase',
+        date: 'October 2018',
+        subtitle: '',
+        imgUrl: null
+    },
+    {
+        title: 'NEO Game Competition - Excellence Award',
+        date: 'August 2018',
+        subtitle: '',
+        imgUrl: null
+    },
+    {
+        title: 'NEO-Microsoft Development Competition - 3rd Place',
+        date: 'May 2018',
+        imgUrl: null
+    },
+    {
+        title: 'Academic Award',
+        date: 'December 2015',
+        imgUrl: null
+    },
+    {
+        title: 'L.S Daniels Award for Earth Science',
+        date: 'December 2015',
+        imgUrl: null
     }
+
 ];
