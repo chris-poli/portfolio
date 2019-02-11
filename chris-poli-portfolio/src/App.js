@@ -15,24 +15,36 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import ProjectSummary from "./Components/Common/ProjectSummary";
 import Awards from "./Views/Awards";
 import Experience from "./Views/Experience";
-
+import {
+    TransitionGroup,
+    CSSTransition
+} from 'react-transition-group'
 class App extends Component {
   render() {
     return (
 
         <BrowserRouter>
-            <div>
+            <div className='App'>
                 <SideNavbar/>
-                <Switch>
-                    <Route path="/" component={Home} exact/>
-                    <Route path="/projects" component={Projects} exact/>
-                    <Route path="/projects/:id" component={ProjectSummary}/>
-                    <Route path='/knowledge' component={Knowledge}/>
-                    <Route path='/experience' component={Experience}/>
-                    <Route path='/awards' component={Awards}/>
-                    <Route path='/error' component={Error}/>
-                    <Redirect to='/error'/>
-                </Switch>
+                <Route render={({location}) => (
+                    <TransitionGroup>
+                        <CSSTransition
+                            key={location.key}
+                            timeout={3000}
+                            classNames='fade'>
+                            <Switch location={location}>
+                                <Route path="/" component={Home} exact/>
+                                <Route path="/projects" component={Projects} exact/>
+                                <Route path="/projects/:id" component={ProjectSummary}/>
+                                <Route path='/knowledge' component={Knowledge}/>
+                                <Route path='/experience' component={Experience}/>
+                                <Route path='/awards' component={Awards}/>
+                                <Route path='/error' component={Error}/>
+                                <Redirect to='/error'/>
+                            </Switch>
+                        </CSSTransition>
+                    </TransitionGroup>
+                )}/>
             </div>
         </BrowserRouter>
 

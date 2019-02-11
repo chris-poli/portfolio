@@ -5,6 +5,8 @@ import Footer from "../Components/Common/Footer";
 import facebook_logo from '../Assets/Images/facebook_logo.png'
 import email_logo from '../Assets/Images/email.png'
 import github_logo from '../Assets/Images/github_logo.png'
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+
 class Home extends Component {
 
     alertEmail() {

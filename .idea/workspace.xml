@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="25a1ec27-f33e-4810-99b2-cc69e18f16d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,35 +18,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="491">
-                    <caret line="352" column="5" lean-forward="true" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
-                    <folding>
-                      <element signature="e#0#37#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -55,10 +33,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="238" column="5" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#569#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-381" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="1205" column="41" selection-start-line="1205" selection-start-column="41" selection-end-line="1205" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="368">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -79,15 +106,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="233" column="19" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -96,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="484">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -126,6 +144,8 @@
       <find>panel</find>
       <find>courses</find>
       <find>background-image</find>
+      <find>test-bg</find>
+      <find>.page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,26 +168,27 @@
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Contact.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/BookList.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/SkillList.js" />
-        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/App.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/ImageList.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/node_modules/@trendmicro/react-sidenav/dist/react-sidenav.css" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/GalleryPhoto.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Projects.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/Gallery.js" />
-        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/ProjectSummary.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Constants/routes.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Experience.js" />
-        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/App.css" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js" />
         <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js" />
+        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/css/style.css" />
+        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/App.css" />
+        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js" />
+        <option value="$PROJECT_DIR$/chris-poli-portfolio/src/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-34" />
-    <option name="y" value="117" />
+    <option name="x" value="-22" />
+    <option name="y" value="179" />
     <option name="width" value="1920" />
     <option name="height" value="814" />
   </component>
@@ -238,6 +259,13 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="chris-poli-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="chris-poli-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -286,12 +314,13 @@
       <workItem from="1549328992959" duration="26828000" />
       <workItem from="1549418664212" duration="3112000" />
       <workItem from="1549606242789" duration="20089000" />
-      <workItem from="1549667864426" duration="7252000" />
+      <workItem from="1549667864426" duration="9584000" />
+      <workItem from="1549766568426" duration="5771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75609000" />
+    <option name="totallyTimeSpent" value="83712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -310,7 +339,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16164994" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22853957" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -498,17 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#569#631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Components/Common/GalleryPhoto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -556,6 +574,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="347" column="5" selection-start-line="347" selection-start-column="5" selection-end-line="347" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -573,49 +628,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.css">
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="233" column="19" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Constants/Information.js">
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="352" column="5" lean-forward="true" selection-start-line="352" selection-start-column="5" selection-end-line="352" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="1205" column="41" selection-start-line="1205" selection-start-column="41" selection-end-line="1205" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Awards.js">
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="238" column="5" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/Views/Knowledge.js">
+    <entry file="file://$PROJECT_DIR$/chris-poli-portfolio/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="125">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#569#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
